@@ -1,0 +1,44 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__icon{
+    object-fit: contain;
+    height: 100px !important;
+    margin-left: 50px;
+}
+
+.header_right{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-right: 50px;
+}
+
+
+.header-center{
+    position: relative;
+}
+
+.header-center>input{
+    padding: 13px 20px;
+    border-radius: 30px;
+    outline: none;
+    width: 350px;
+    border: 1px solid rgba(0,0,0,0.2);
+}
+
+.seach_icon{
+    position: absolute;
+    top: 11px;
+    right: 12px;
+    font-size: 23px;
+}
+
+.bisnas_man{
+    padding: 10px;
+    background-color: rgba(0,0,0,0.2);
+    border-radius: 50%;
+}
